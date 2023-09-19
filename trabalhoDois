@@ -14,3 +14,19 @@
 //}
 
 //------------------------------------------------------------------------------------------------------
+
+//2- multiplicação com numero par
+const mult1 = prompt("digite o primero valor de 1 a 50");
+const mult2 = prompt("digite o segundo valor de 1 a 50");
+
+if((mult1 % 2) === 0 && (mult2 % 2) === 0 ){
+
+console.log(mult1 * mult2 );
+
+}
+
+else {
+
+console.log("operação invalida");
+
+}
